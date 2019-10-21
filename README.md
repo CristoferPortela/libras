@@ -17,7 +17,7 @@ Exigencias do projeto
 
 ### Qualidade do código
 
-- [] Usar um Style Guide - apresentar o uso de pelo menos 10 regras do style escolhido 
+- [ ] Usar um Style Guide - apresentar o uso de pelo menos 10 regras do style escolhido 
 - [] Usar um lint - mostrar a correção de pelo menos 5 problemas informados pelo lint 
 - [] Usar strict mode
 - [] Usar Module Pattern
