@@ -1,0 +1,757 @@
+/* Bg */
+.m-blue:before,
+.l-blue:after,
+.bg-blue {
+  background-color: blue;
+}
+.m-sky:before,
+.l-sky:after,
+.bg-sky {
+  background-color: #81c8d8;
+}
+.m-summer-sky:before,
+.l-summer-sky:after,
+.bg-summer-sky {
+  background-color: #38b0de;
+}
+.m-indigo:before,
+.l-indigo:after,
+.bg-indigo {
+  background-color: #4b0082;
+}
+.m-azure:before,
+.l-azure:after,
+.bg-azure {
+  background-color: #0080ff;
+}
+.m-arctic:before,
+.l-artic:after,
+.bg-artic {
+  background-color: #c6e6fb;
+}
+.m-lapis:before,
+.l-lapis:after,
+.bg-lapis {
+  background-color: #261b9c;
+}
+.m-admiral:before,
+.l-admiral:after,
+.bg-admiral {
+  background-color: #2c3863;
+}
+.m-saphire:before,
+.l-saphire:after,
+.bg-saphire {
+  background-color: #082567;
+}
+.m-biscay:before,
+.l-biscay:after,
+.bg-biscay {
+  background-color: #1b486b;
+}
+.m-royal-blue,
+.l-royal-blue,
+.bg-royal-blue {
+  background-color: #5269e0;
+}
+.m-picton-blue,
+.l-picton-blue,
+.bg-picton-blue {
+  background-color: #4799eb;
+}
+.m-eastern-blue,
+.l-eastern-blue,
+.bg-eastern-blue {
+  background-color: #14aab8;
+}
+.m-legion-blue,
+.l-legion-blue,
+.bg-legion-blue {
+  background-color: #1f4e5a;
+}
+.m-bracing-blue:before,
+.l-bracing-blue:after,
+.bg-bracing-blue {
+  background-color: #004682;
+}
+.m-spanish-blue,
+.l-spanish-blue,
+.bg-spanish-blue {
+  background-color: #0370b7;
+}
+.m-tomb-blue,
+.l-tomb-blue,
+.bg-tomb-blue {
+  background-color: #0295ce;
+}
+.m-green:before,
+.l-green:after,
+.bg-green {
+  background-color: green;
+}
+.m-shamrock:before,
+.l-shamrock:after,
+.bg-shamrock {
+  background-color: #009e60;
+}
+.m-lime:before,
+.l-lime:after,
+.bg-lime {
+  background-color: #bfff00;
+}
+.m-seafoam:before,
+.l-seafoam:after,
+.bg-seafoam {
+  background-color: #71eeb8;
+}
+.m-forest:before,
+.l-forest:after,
+.bg-forest {
+  background-color: #0b6623;
+}
+.m-emerald:before,
+.l-emerald:after,
+.bg-emerald {
+  background-color: #019875;
+}
+.m-eucalyptus:before,
+.l-eucalyptus:after,
+.bg-eucalyptus {
+  background-color: #28a352;
+}
+.m-conifer:before,
+.l-conifer:after,
+.bg-conifer {
+  background-color: #b2db34;
+}
+.m-spectra-green,
+.l-spectra-green,
+.bg-spectra-green {
+  background-color: #029c8e;
+}
+.m-exquisite-turquoise,
+.l-exquisite-turquoise,
+.bg-exquisite-turquoise {
+  background-color: #07d1bf;
+}
+.m-thallium-flame,
+.l-thallium-flame,
+.bg-thallium-flame {
+  background-color: #60f4a0;
+}
+.m-yellow:before,
+.l-yellow:after,
+.bg-yellow {
+  background-color: yellow;
+}
+.m-amber:before,
+.l-amber:after,
+.bg-amber {
+  background-color: #ffbf00;
+}
+.m-canary:before,
+.l-canary:after,
+.bg-canary {
+  background-color: #ffef00;
+}
+.m-gold:before,
+.l-gold:after,
+.bg-gold {
+  background-color: #f9a602;
+}
+.m-fire:before,
+.l-fire:after,
+.bg-fire {
+  background-color: #fda50f;
+}
+.m-honey:before,
+.l-honey:after,
+.bg-honey {
+  background-color: #eb9605;
+}
+.m-spiced-nectarine:before,
+.l-spiced-nectarine:after,
+.bg-spiced-nectarine {
+  background-color: #fcb76f;
+}
+.m-golden-nectar,
+.l-golden-nectar,
+.bg-golden-nectar {
+  background-color: #ffdb69;
+}
+.m-orange:before,
+.l-orange:after,
+.bg-orange {
+  background-color: orange;
+}
+.m-tangerine:before,
+.l-tangerine:after,
+.bg-tangerine {
+  background-color: #f28500;
+}
+.m-tiger:before,
+.l-tiger:after,
+.bg-tiger {
+  background-color: #fd6a02;
+}
+.m-carrot:before,
+.l-carrot:after,
+.bg-carrot {
+  background-color: #ed9121;
+}
+.m-sandstone:before,
+.l-sandstone:after,
+.bg-sandstone {
+  background-color: #d7902c;
+}
+.m-fuel-yellow:before,
+.l-fuel-yellow:after,
+.bg-fuel-yellow {
+  background-color: #f2ac34;
+}
+.m-crusta:before,
+.l-crusta:after,
+.bg-crusta {
+  background-color: #fc7634;
+}
+.m-roasted-sienna:before,
+.l-roasted-sienna:after,
+.bg-roasted-sienna {
+  background-color: #e88666;
+}
+.m-chardonnay,
+.l-chardonnay,
+.bg-chardonnay {
+  background-color: #ffc980;
+}
+.m-echinoida-torns,
+.l-echinoida-torns,
+.bg-echinoida-torns {
+  background-color: #ffa658;
+}
+.m-teri-gaki-persimmon,
+.l-teri-gaki-persimmon,
+.bg-teri-gaki-persimmon {
+  background-color: #ea5f40;
+}
+.m-brown:before,
+.l-brown:after,
+.bg-brown {
+  background-color: brown;
+}
+.m-clay:before,
+.l-clay:after,
+.bg-clay {
+  background-color: #734222;
+}
+.m-spice:before,
+.l-spice:after,
+.bg-spice {
+  background-color: #793802;
+}
+.m-rust:before,
+.l-rust:after,
+.bg-rust {
+  background-color: #8b4000;
+}
+.m-ginger:before,
+.l-ginger:after,
+.bg-ginger {
+  background-color: #b06500;
+}
+.m-red:before,
+.l-red:after,
+.bg-red {
+  background-color: red;
+}
+.m-cherry:before,
+.l-cherry:after,
+.bg-cherry {
+  background-color: #790604;
+}
+.m-scarlet:before,
+.l-scarlet:after,
+.bg-scarlet {
+  background-color: #ff2400;
+}
+.m-ruby:before,
+.l-ruby:after,
+.bg-ruby {
+  background-color: #9b111e;
+}
+.m-purple:before,
+.l-purple:after,
+.bg-purple {
+  background-color: purple;
+}
+.m-fuchsia:before,
+.l-fuchsia:after,
+.bg-fuchsia {
+  background-color: #ff00ff;
+}
+.m-magenta:before,
+.l-magenta:after,
+.bg-magenta {
+  background-color: #ff0090;
+}
+.m-flamingo:before,
+.l-flamingo:after,
+.bg-flamingo {
+  background-color: #fca3b7;
+}
+.m-rose:before,
+.l-rose:after,
+.bg-rose {
+  background-color: #ff66cc;
+}
+.m-imperial-purple,
+.l-imperial-purple,
+.bg-imperial-purple {
+  background-color: #541d61;
+}
+.m-wild-aster:before,
+.l-wild-aster:after,
+.bg-wild-aster {
+  background-color: #8f3066;
+}
+.m-popstar:before,
+.l-popstar:after,
+.bg-popstar {
+  background-color: #c05166;
+}
+.m-pink:before,
+.l-pink:after,
+.bg-pink {
+  background-color: pink;
+}
+.m-lilac:before,
+.l-lilac:after,
+.bg-lilac {
+  background-color: #AA7ED6;
+}
+.m-amethyst:before,
+.l-amethyst:after,
+.bg-amethyst {
+  background-color: #9966cc;
+}
+.m-ebony-clay,
+.l-ebony-clay,
+.bg-ebony-clay {
+  background-color: #1f242e;
+}
+.m-black,
+.l-black,
+.bg-black {
+  color: #000;
+}
+.m-white,
+.l-white,
+.bg-white {
+  color: #fff;
+}
+.m-grey-111,
+.l-grey-111,
+.bg-grey-111 {
+  background-color: #111;
+}
+.m-grey-222,
+.l-grey-222,
+.bg-grey-222 {
+  background-color: #222;
+}
+.m-grey-333,
+.l-grey-333,
+.bg-grey-333 {
+  background-color: #333;
+}
+.m-grey-444,
+.l-grey-444,
+.bg-grey-444 {
+  background-color: #444;
+}
+.m-grey-555,
+.l-grey-555,
+.bg-grey-555 {
+  background-color: #555;
+}
+.m-grey-666,
+.l-grey-666,
+.bg-grey-666 {
+  background-color: #666;
+}
+.m-grey-777,
+.l-grey-777,
+.bg-grey-777 {
+  background-color: #777;
+}
+.m-grey-888,
+.l-grey-888,
+.bg-grey-888 {
+  background-color: #888;
+}
+.m-grey-999,
+.l-grey-999,
+.bg-grey-999 {
+  background-color: #999;
+}
+.m-grey-aaa,
+.l-grey-aaa,
+.bg-grey-aaa {
+  background-color: #aaa;
+}
+.m-grey-bbb,
+.l-grey-bbb,
+.bg-grey-bbb {
+  background-color: #bbb;
+}
+.m-grey-ccc,
+.l-grey-ccc,
+.bg-grey-ccc {
+  background-color: #ccc;
+}
+.m-grey-ddd,
+.l-grey-ddd,
+.bg-grey-ddd {
+  background-color: #ddd;
+}
+.m-grey-eee,
+.l-grey-eee,
+.bg-grey-eee {
+  background-color: #eee;
+}
+/* Colors */
+.blue {
+  color: blue;
+}
+.sky {
+  color: #81c8d8;
+}
+.summer-sky {
+  color: #38b0de;
+}
+.indigo {
+  color: #4b0082;
+}
+.azure {
+  color: #0080ff;
+}
+.artic {
+  color: #c6e6fb;
+}
+.lapis {
+  color: #261b9c;
+}
+.admiral {
+  color: #2c3863;
+}
+.saphire {
+  color: #082567;
+}
+.biscay {
+  color: #1b486b;
+}
+.royal-blue {
+  color: #5269e0;
+}
+.picton-blue {
+  color: #4799eb;
+}
+.eastern-blue {
+  color: #14aab8;
+}
+.legion-blue {
+  color: #1f4e5a;
+}
+.bracing-blue {
+  color: #004682;
+}
+.spanish-blue {
+  color: #0370b7;
+}
+.tomb-blue {
+  color: #0295ce;
+}
+.green {
+  color: green;
+}
+.shamrock {
+  color: #009e60;
+}
+.lime {
+  color: #bfff00;
+}
+.seafoam {
+  color: #71eeb8;
+}
+.forest {
+  color: #0b6623;
+}
+.emerald {
+  color: #019875;
+}
+.eucalyptus {
+  color: #28a352;
+}
+.conifer {
+  color: #b2db34;
+}
+.spectra-green {
+  color: #029c8e;
+}
+.exquisite-turquoise {
+  color: #07d1bf;
+}
+.thallium-flame {
+  color: #60f4a0;
+}
+.yellow {
+  color: yellow;
+}
+.amber {
+  color: #ffbf00;
+}
+.canary {
+  color: #ffef00;
+}
+.gold {
+  color: #f9a602;
+}
+.fire {
+  color: #fda50f;
+}
+.honey {
+  color: #eb9605;
+}
+.spiced-nectarine {
+  color: #fcb76f;
+}
+.golden-nectar {
+  color: #ffdb69;
+}
+.orange {
+  color: orange;
+}
+.tangerine {
+  color: #f28500;
+}
+.tiger {
+  color: #fd6a02;
+}
+.carrot {
+  color: #ed9121;
+}
+.sandstone {
+  color: #d7902c;
+}
+.fuel-yellow {
+  color: #f2ac34;
+}
+.crusta {
+  color: #fc7634;
+}
+.roasted-sienna {
+  color: #e88666;
+}
+.chardonnay {
+  color: #ffc980;
+}
+.echinoida-torns {
+  color: #ffa658;
+}
+.teri-gaki-persimmon {
+  color: #ea5f40;
+}
+.brown {
+  color: brown;
+}
+.clay {
+  color: #734222;
+}
+.spice {
+  color: #793802;
+}
+.rust {
+  color: #8b4000;
+}
+.ginger {
+  color: #b06500;
+}
+.red {
+  color: red;
+}
+.cherry {
+  color: #790604;
+}
+.scarlet {
+  color: #ff2400;
+}
+.ruby {
+  color: #9b111e;
+}
+.pink {
+  color: pink;
+}
+.fuchsia {
+  color: #ff00ff;
+}
+.magenta {
+  color: #ff0090;
+}
+.flamingo {
+  color: #fca3b7;
+}
+.rose {
+  color: #ff66cc;
+}
+.purple {
+  color: purple;
+}
+.lilac {
+  color: #AA7ED6;
+}
+.amethyst {
+  color: #9966cc;
+}
+.imperial-purple {
+  color: #541d61;
+}
+.wild-aster {
+  color: #8f3066;
+}
+.popstar {
+  color: #c05166;
+}
+.ebony-clay {
+  color: #1f242e;
+}
+.black {
+  color: #000;
+}
+.white {
+  color: #fff;
+}
+.grey-111 {
+  color: #111;
+}
+.grey-222 {
+  color: #222;
+}
+.grey-333 {
+  color: #333;
+}
+.grey-444 {
+  color: #444;
+}
+.grey-555 {
+  color: #555;
+}
+.grey-666 {
+  color: #666;
+}
+.grey-777 {
+  color: #777;
+}
+.grey-888 {
+  color: #888;
+}
+.grey-999 {
+  color: #999;
+}
+.grey-aaa {
+  color: #aaa;
+}
+.grey-bbb {
+  color: #bbb;
+}
+.grey-ccc {
+  color: #ccc;
+}
+.grey-ddd {
+  color: #ddd;
+}
+.grey-eee {
+  color: #eee;
+}
+/*
+    linear gradients
+*/
+.biscay-to-eucalyptus {
+  background-image: linear-gradient(to right, #1b486b, #28a352);
+  -webkit-background-image: linear-gradient(to right, #1b486b, #28a352);
+}
+.eucalyptus-to-conifer {
+  background-image: linear-gradient(to right, #28a352, #b2db34);
+  -webkit-background-image: linear-gradient(to right, #28a352, #b2db34);
+}
+.conifer-to-fuel-yellow {
+  background-image: linear-gradient(to right, #b2db34, #f2ac34);
+  -webkit-background-image: linear-gradient(to right, #b2db34, #f2ac34);
+}
+.fuel-yellow-to-crusta {
+  background-image: linear-gradient(to right, #f2ac34, #fc7634);
+  -webkit-background-image: linear-gradient(to right, #f2ac34, #fc7634);
+}
+.imperial-purple-to-wild-aster {
+  background-image: linear-gradient(to right, #541d61, #8f3066);
+  -webkit-background-image: linear-gradient(to right, #541d61, #8f3066);
+}
+.wild-aster-to-popstar {
+  background-image: linear-gradient(to right, #8f3066, #c05166);
+  -webkit-background-image: linear-gradient(to right, #8f3066, #c05166);
+}
+.popstar-to-roasted-sienna {
+  background-image: linear-gradient(to right, #c05166, #e88666);
+  -webkit-background-image: linear-gradient(to right, #c05166, #e88666);
+}
+.roasted-sienna-to-spiced-nectarine {
+  background-image: linear-gradient(to right, #e88666, #fcb76f);
+  -webkit-background-image: linear-gradient(to right, #e88666, #fcb76f);
+}
+.ebony-clay-to-royal-blue {
+  background-image: linear-gradient(to right, #1f242e, #5269e0);
+  -webkit-background-image: linear-gradient(to right, #1f242e, #5269e0);
+}
+.royal-blue-to-picton-blue {
+  background-image: linear-gradient(to right, #5269e0, #4799eb);
+  -webkit-background-image: linear-gradient(to right, #5269e0, #4799eb);
+}
+.picton-blue-to-eastern-blue {
+  background-image: linear-gradient(to right, #4799eb, #14aab8);
+  -webkit-background-image: linear-gradient(to right, #4799eb, #14aab8);
+}
+.eastern-blue-to-chardonnay {
+  background-image: linear-gradient(to right, #14aab8, #ffc980);
+  -webkit-background-image: linear-gradient(to right, #14aab8, #ffc980);
+}
+.legion-blue-to-spectra-green {
+  background-image: linear-gradient(to right, #1f4e5a, #029c8e);
+  -webkit-background-image: linear-gradient(to right, #1f4e5a, #029c8e);
+}
+.spectra-green-to-golden-nectar {
+  background-image: linear-gradient(to right, #029c8e, #ffdb69);
+  -webkit-background-image: linear-gradient(to right, #029c8e, #ffdb69);
+}
+.golden-nectar-to-echinoida-torns {
+  background-image: linear-gradient(to right, #ffdb69, #ffa658);
+  -webkit-background-image: linear-gradient(to right, #ffdb69, #ffa658);
+}
+.echinoida-torns-to-teri-gaki-persimmon {
+  background-image: linear-gradient(to right, #ffa658, #ea5f40);
+  -webkit-background-image: linear-gradient(to right, #ffa658, #ea5f40);
+}
+.bracing-blue-to-spanish-blue {
+  background-image: linear-gradient(to right, #004682, #0370b7);
+  -webkit-background-image: linear-gradient(to right, #004682, #0370b7);
+}
+.spanish-blue-to-tomb-blue {
+  background-image: linear-gradient(to right, #0370b7, #0295ce);
+  -webkit-background-image: linear-gradient(to right, #0370b7, #0295ce);
+}
+.tomb-blue-to-exquisite-turquoise {
+  background-image: linear-gradient(to right, #0295ce, #07d1bf);
+  -webkit-background-image: linear-gradient(to right, #0295ce, #07d1bf);
+}
+.exquisite-turquoise-to-thallium-flame {
+  background-image: linear-gradient(to right, #07d1bf, #60f4a0);
+  -webkit-background-image: linear-gradient(to right, #07d1bf, #60f4a0);
+}
