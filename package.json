@@ -1,0 +1,15 @@
+{
+  "name": "libras",
+  "version": "1.0.0",
+  "description": "Libras is the second official language of Brazil",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "libras",
+    "js"
+  ],
+  "author": "CristoferPortela",
+  "license": "MIT"
+}
