@@ -2,6 +2,16 @@ L I | B  R  A | S
 -----|--------|--
 lingua |brasileira |de sinais
 
+
+### About the project
+
+
+This is a informative project about the brasilian sign language, but not just that
+in the next months I'll be working on my project which is gonna be term paper 
+all based in sign language, this is gonna be the design for the online documentation
+of the project, soon I'll be publishing the requirements gathering, see you soon...
+
+
 ## What does is Libras
 
 Libras stands for Lingua Brasileira de Sinais (Brasilian sign language)
@@ -19,7 +29,7 @@ Exigencias do projeto
 
 - [ ] Usar um Style Guide - apresentar o uso de pelo menos 10 regras do style escolhido 
 - [ ] Usar um lint - mostrar a correção de pelo menos 5 problemas informados pelo lint 
-- [ ] Usar strict mode
+- [x] Usar strict mode
 - [ ] Usar Module Pattern
 - [x] Usar pasta assets e subpastas resources e libraries para organizar o código
 - [ ] Usar let ao invés de var
@@ -38,14 +48,14 @@ Exigencias do projeto
 
 ### Funções
 
-- [ ] Função anônima com argumento
+- [x] Função anônima com argumento
 - [ ] Função anônima sem argumento
 - [ ] Função anônima com retorno
 - [ ] Função auto-executável
 - [ ] Função com nome
 - [ ] Função aninhada/local - declarar uma função dentro de outra
 - [ ] Passagem de uma função como parâmetro
-- [ ] Função Flecha - Arrow Function
+- [x] Função Flecha - Arrow Function
 
 ### Eventos
 
