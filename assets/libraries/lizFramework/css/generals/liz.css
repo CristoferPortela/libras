@@ -1227,6 +1227,7 @@ Ref:https://codepen.io/Nusky/pen/NogRVb?fbclid=IwAR0pArF1_fx4FGqBca5G4kuBt9pE7xa
 }
 ._center-flex {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -1488,13 +1489,13 @@ Ref:https://codepen.io/Nusky/pen/NogRVb?fbclid=IwAR0pArF1_fx4FGqBca5G4kuBt9pE7xa
 .bg-chardonnay {
   background-color: #ffc980;
 }
-.m-echinoida-torns,
-.l-echinoida-torns,
+.m-echinoida-torns:before,
+.l-echinoida-torns:after,
 .bg-echinoida-torns {
   background-color: #ffa658;
 }
-.m-teri-gaki-persimmon,
-.l-teri-gaki-persimmon,
+.m-teri-gaki-persimmon:before,
+.l-teri-gaki-persimmon:after,
 .bg-teri-gaki-persimmon {
   background-color: #ea5f40;
 }
@@ -1598,8 +1599,8 @@ Ref:https://codepen.io/Nusky/pen/NogRVb?fbclid=IwAR0pArF1_fx4FGqBca5G4kuBt9pE7xa
 .bg-amethyst {
   background-color: #9966cc;
 }
-.m-ebony-clay,
-.l-ebony-clay,
+.m-ebony-clay:before,
+.l-ebony-clay:after,
 .bg-ebony-clay {
   background-color: #1f242e;
 }
