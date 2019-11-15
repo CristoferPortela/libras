@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "montserrat";
+    src: url(../fonts/Montserrat-UltraLight.otf);
+}
+
+:root {
+    --title: 'montserrat', cursive;
+    --red: #f80012;
+    --light-yellow: rgb(255, 165, 0);
+    --dark-yellow: rgb(204, 139, 20);
+    --alpha-light: rgba(255, 165, 0,.8);
+    --alpha-dark: rgba(204, 139, 20,.8);
+    --orange: #ff6c00;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body, span, p, h1, h2, h3, h4, h5, h6
+button, a {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+header {
+    .header-bg {
+        background-image: url(../images/sign.jpg);
+        background-size: 100% 90vh;
+        background-repeat: no-repeat;
+        height: 90vh;
+        
+        h1 a {
+            font-family: var(--title);
+            font-size: 3.5em;
+            font-style: italic;
+            color: var(--red);
+            text-shadow: 0 0 5px #121416,
+                         0 0 8px var(--light-yellow);
+            .sign {
+                color: var(--orange);
+                text-shadow: 0 0 5px #121416,
+                             0 0 8px var(--red);
+            }
+        }
+    }
+}
+h2 {
+    color: #121416;
+    font-size: 2em;
+    font-family: var(--title)
+}
+
+.container {
+    margin-left: 1%;
+    margin-right: 1%;
+    @media screen and (min-width: 552px) {
+        margin-left: 3%;
+        margin-right: 3%;   
+    }
+    @media screen and (min-width: 720px) {
+        margin-left: 5%;
+        margin-right: 5%;   
+    }
+    @media screen and (min-width: 992px) {
+        margin-left: 8%;
+        margin-right: 8%;   
+    }
+}
+
+.question {
+    font-size: 20em;
+    text-shadow: 5px 3px 15px #121416;
+    transition: ease-in-out 1s;
+    cursor: default;
+    &:hover {
+        font-size: 22em;
+        text-shadow: -10px -7px 20px #121416;
+    }
+}
