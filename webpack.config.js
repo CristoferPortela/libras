@@ -1,13 +1,13 @@
 const dev = process.env.NODE_ENV !== 'production'
+const path = require('path');
 const webpack = require('webpack')
 const MiniCss = require('mini-css-extract-plugin')
 const UglifyJs = require('uglifyjs-webpack-plugin')
-const OptimizeCss = require('optimize-css-assets-plugin')
-const copywebpack = require('copy-webpack-plugin')
+const OptimizeCss = require('optimize-css-assets-webpack-plugin')
 
 module.exports = {
     mode: dev ? 'development' : 'production',
-    entry: './development/index.js',
+    entry: './assets/resources/index.js',
     devServer: {
         contentBase: './public',
         port: 9000
@@ -23,27 +23,25 @@ module.exports = {
         ]
     },
     output: {
-        filename: 'app.js',
-        path: './assets/resources'
+        filename: 'bundle.js',
+        path: path.resolve(__dirname, 'public/'),
     },
     plugins: [
         new MiniCss({
             filename: 'style.css'
-        }),
-        new copywebpack([
-            {
-                context: 'public/',
-                from: '**/*.html'
-            }
-        ])
+        })
     ],
     module: {
         rules: [{
             test: /\.js$/,
-            exclude: '/node_modules',
+            exclude: /node_modules/,
+            use: 'jshint-loader'
+        }, {
+            test: /\.js$/,
+            exclude: /node_modules/,
             use: ['babel-loader']
         }, {
-            test: /\.l?[ec]ss$/,
+            test: /\.(css|less)$/,
             use: [
                 MiniCss.loader,
                 'css-loader',
@@ -55,6 +53,9 @@ module.exports = {
         }, {
             test: /\.(ttf|otf|eot|svg|woff(2)?)$/,
             use: ['file-loader']
+        }, {
+            test: /\.html$/,
+            use: ['html-loader']
         }]
     }
 }
