@@ -1,0 +1,113 @@
+.main-nav {
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    width: 100%;
+    box-shadow: 2px 2px 8px rgba(18, 20, 22, .5);
+
+    .brand {
+        display: flex;
+        flex: 0 0 80%;
+
+        img {
+            flex: 0 0 50%;
+        }
+        h1 {
+            padding-top: 5px;
+            font-family: var(--title);
+            color: var(--red);
+            flex: 0 0 80%;
+            font-weight: 500;
+            font-style: italic;
+            text-shadow: 0 0 1px #121416; 
+
+            @media screen {
+                font-size: 1.5em;
+            }
+        }
+        @media screen and (min-width: 720px) {
+            flex: 0 0 30vw;
+            align-items: center;
+        }
+    }
+    .toggler {
+        flex: 0 0 20%;
+        background: transparent;
+        border: none;
+        padding: 10px;
+        margin: 0;
+    }
+    @media screen and (min-width: 720px) {
+        .toggler {
+            display: none;
+        }
+    }
+    #main-menu {
+        transition: height .2s ease-in-out;
+
+        &.toggled {
+            height: 0;
+            visibility: hidden;
+        }
+        &.toggled-change {
+            height: 140px;
+            visibility: visible;
+        }
+        @media screen and (min-width: 720px) {
+            &.toggled, &.togggled-change {
+                visibility: visible;
+                height: 75px;
+            }
+        }
+        .menu-list {
+            list-style: none;
+            a {
+                color: var(--red);
+                text-decoration: none;
+                font-family: var(--title);
+                font-weight: 500;
+                font-size: .9em;
+                transition: ease-in-out .8s;
+
+                &:active {
+                    color: var(--dark-yellow);
+                }
+                &:visited {
+                    color: var(--red);                
+                }
+                &:hover {
+                    font-size: 1.05em;
+                }
+            }
+            @media screen and (min-width: 720px) {
+                display: flex;
+                li {
+                    padding: 5px 10px;
+                }
+            }
+        }
+        .nav-form {
+            padding-top: 10px;
+
+            input[type=text] {
+                border: 1px solid #a1a2a3;
+                background: transparent;
+                padding: 5px;
+            }
+            .lupa {
+                position: relative;
+                left: -35px;
+                top: 9px;
+                color: #a1a2a3;
+            }
+            input[type=submit] {
+                visibility: hidden;
+            }
+            @media screen and (min-width: 720px) {
+                padding-top: 0;
+                margin-top: -14px;
+            }
+        }
+
+    }
+}
