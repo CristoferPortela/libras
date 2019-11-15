@@ -1,0 +1,5 @@
+amarelo 1 ffa500
+amerelo 2 ff6c00
+amarelo 3 cc8b14
+vermelho f80012
+"branco" f0f8ff (aliceblue)
