@@ -27,13 +27,13 @@ Exigencias do projeto
 
 ### Qualidade do código
 
-- [ ] Usar um Style Guide - apresentar o uso de pelo menos 10 regras do style escolhido 
-- [ ] Usar um lint - mostrar a correção de pelo menos 5 problemas informados pelo lint 
+- [x] Usar um Style Guide - apresentar o uso de pelo menos 10 regras do style escolhido 
+- [x] Usar um lint - mostrar a correção de pelo menos 5 problemas informados pelo lint 
 - [x] Usar strict mode
 - [ ] Usar Module Pattern
 - [x] Usar pasta assets e subpastas resources e libraries para organizar o código
-- [ ] Usar let ao invés de var
-- [ ] Nomes de arquivos minúsculos e separados por hífen (dashed-case)
+- [x] Usar let ao invés de var
+- [x] Nomes de arquivos minúsculos e separados por hífen (dashed-case)
 
 ### Caixas de Diálogo
 
@@ -49,25 +49,25 @@ Exigencias do projeto
 ### Funções
 
 - [x] Função anônima com argumento
-- [ ] Função anônima sem argumento
+- [x] Função anônima sem argumento
 - [ ] Função anônima com retorno
-- [ ] Função auto-executável
-- [ ] Função com nome
-- [ ] Função aninhada/local - declarar uma função dentro de outra
-- [ ] Passagem de uma função como parâmetro
+- [x] Função auto-executável
+- [x] Função com nome
+- [x] Função aninhada/local - declarar uma função dentro de outra
+- [x] Passagem de uma função como parâmetro
 - [x] Função Flecha - Arrow Function
 
 ### Eventos
 
 - [ ] Evento de carregamento do documento - onload
-- [ ] Evento de movimento do mouse
+- [x] Evento de movimento do mouse
 - [ ] Evento de teclado - usar charCode ou keyCode
 - [ ] Eventos de formulário - onfocus e onblur
 - [ ] Imprimir alguma propriedade do objeto event recebido como parâmetro
 
 ### Acesso aos elementos DOM do HTML
 
-- [ ] Via referência DOM pelo id do elemento HTML
+- [x] Via referência DOM pelo id do elemento HTML
 - [ ] Via getElementByID()
 - [ ] Via getElementsByName()
 - [ ] Via getElementsByTagName()
