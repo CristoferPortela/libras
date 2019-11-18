@@ -79,3 +79,54 @@ h2 {
         text-shadow: -10px -7px 20px #121416;
     }
 }
+.delay {
+    transition: ease-in-out .8s !important;
+}
+.bg {
+    background-color: #f0f8ff;
+}
+
+.imagem {
+    max-width: 100%;
+}
+
+main p {
+    display: block;
+    margin: 10px 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    .container()
+}
+
+.like {
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/like_PNG49.png);
+    background-size: 30px;
+    background-position: 50%;
+    background-color: var(--red);
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    padding: 5px;
+    border: 3px solid var(--light-yellow);
+    box-shadow: 3px 3px 7px rgba(0,0,0,.7);
+    cursor: pointer;
+    transition: ease .1s;
+
+    &:focus{
+        outline: none;
+    }
+    &:active {
+        width: 45px;
+        height: 45px;
+        box-shadow: 1px 1px 1px rgba(0,0,0,.5);
+        background-size: 27px;
+    }
+}
+
+.liked-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
