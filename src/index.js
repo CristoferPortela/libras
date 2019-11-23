@@ -1,11 +1,18 @@
 const express = require('express')
-const bp = require('body-parser')
+const cors = require('cors')
+const sobre = require('./json/sobre')
 
 const app = express()
-const port = 4001
+const port = 80
 
-app.use(bp.urlencoded({ extended: true }))
+app.use(cors())
 
-app.get('/', (req, res, next) => {
-    res.send("something")
+app.get('/sobre', (req, res, next) => {
+    res.json(sobre)
 })
+
+app.post('/form', (req, res, next) => {
+    req.get()
+})
+
+app.listen(port)
