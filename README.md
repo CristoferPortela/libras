@@ -30,7 +30,7 @@ Exigencias do projeto
 - [x] Usar um Style Guide - apresentar o uso de pelo menos 10 regras do style escolhido 
 - [x] Usar um lint - mostrar a correção de pelo menos 5 problemas informados pelo lint 
 - [x] Usar strict mode
-- [ ] Usar Module Pattern
+- [x] Usar Module Pattern
 - [x] Usar pasta assets e subpastas resources e libraries para organizar o código
 - [x] Usar let ao invés de var
 - [x] Nomes de arquivos minúsculos e separados por hífen (dashed-case)
@@ -38,19 +38,19 @@ Exigencias do projeto
 ### Caixas de Diálogo
 
 - [ ] prompt
-- [ ] alert
-- [ ] confirm
+- [x] alert
+- [x] confirm
 
 ### Temporizadores
 
-- [ ] setInterval
+- [x] setInterval
 - [ ] setTimeout
 
 ### Funções
 
 - [x] Função anônima com argumento
 - [x] Função anônima sem argumento
-- [ ] Função anônima com retorno
+- [x] Função anônima com retorno
 - [x] Função auto-executável
 - [x] Função com nome
 - [x] Função aninhada/local - declarar uma função dentro de outra
@@ -68,10 +68,10 @@ Exigencias do projeto
 ### Acesso aos elementos DOM do HTML
 
 - [x] Via referência DOM pelo id do elemento HTML
-- [ ] Via getElementByID()
-- [ ] Via getElementsByName()
+- [x] Via getElementByID()
+- [x] Via getElementsByName()
 - [ ] Via getElementsByTagName()
-- [ ] Via seletores CSS usados na função querySelector() ou querySelectorAll()
+- [x] Via seletores CSS usados na função querySelector() ou querySelectorAll()
 
 ### Tratadores de Evento
 
@@ -82,21 +82,21 @@ Exigencias do projeto
 
 ### Formulário
 
-- [ ] Validação de formulário com onsubmit usando os métodos tradicionais
+- [x] Validação de formulário com onsubmit usando os métodos tradicionais
 - [ ] Validação de formulário com HTML5 API
-    - [ ] Customizar as mensagens nos balões de mensagem
-    - [ ] Usar os atributos de validação dos inputs
+    - [x] Customizar as mensagens nos balões de mensagem
+    - [x] Usar os atributos de validação dos inputs
     - [ ] Usar expressões regulares
-- [ ] Ler e escrever em elementos input com a propriedade value
+- [x] Ler e escrever em elementos input com a propriedade value
 - [ ] Alterar o conteúdo de elementos div ou p com a propriedade innerHTML ou textContent
-- [ ] Manipulação de elemento de listagem, como checkbox, radio ou select
+- [x] Manipulação de elemento de listagem, como checkbox, radio ou select
 - [ ] Acesso aos elementos de um formulário via hierarquia (caminho) de objetos, ou seja, array forms e elements
 
 ### Objetos Nativos
 
-- [ ] Usar pelo menos 3 métodos de manipulação de array
-- [ ] Usar laço de repetição (for..in ou for..of ou forEach)
-- [ ] Usar pelo menos 3 métodos para manipulação de string
+- [x] Usar pelo menos 3 métodos de manipulação de array
+- [x] Usar laço de repetição (for..in ou for..of ou forEach)
+- [x] Usar pelo menos 3 métodos para manipulação de string
 
 ### jQuery
 
@@ -112,5 +112,5 @@ Exigencias do projeto
 ### Web Storage
 
 - [x] LocalStorage ou SessionStorage
-- [ ] Leitura e escrita de dados simples
+- [x] Leitura e escrita de dados simples
 - [ ] Leitura e escrita de JSON
