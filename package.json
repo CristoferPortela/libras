@@ -1,14 +1,13 @@
 {
-  "name": "libras",
+  "name": "sign-script",
   "version": "1.0.0",
-  "description": "Libras is the second official language of Brazil",
+  "description": "The documentatiosn of SignScript",
   "main": "src/index.js",
   "scripts": {
     "test": "test",
-    "back": "express",
     "front": "webpack-dev-server",
-    "start": "express && webpack-dev-server",
-    "build": "cross-env MODE_ENV=production webpack"
+    "build": "cross-env MODE_ENV=production webpack",
+    "start": "pm2 start src/index.js --name sign-script"
   },
   "keywords": [
     "libras",
@@ -38,9 +37,11 @@
   },
   "dependencies": {
     "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
     "cross-env": "^6.0.3",
     "css-loader": "^3.2.0",
     "express": "^4.17.1",
-    "jquery": "^3.4.1"
+    "jquery": "^3.4.1",
+    "pm2": "^4.1.2"
   }
 }
