@@ -2,9 +2,7 @@
 import $ from 'jquery'
 import woman from '../images/woman.jpg'
 
-if (location.pathname === '/' || location.pathname === '/home')
-
-$(function() {
+function mainPage() {
 
     const indexArticles = []
     const porqueImg = $('.porque')
@@ -55,12 +53,12 @@ $(function() {
         }
     }
 
-    window.onload = function() {
-        like()
-    }
-
+    like()
+        
     document.getElementById('like').addEventListener('click', () =>{
         localStorage.like = true
         like()
-    })
-})
+        alert('Obrigado!')
+    })    
+}
+export default mainPage
