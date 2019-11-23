@@ -1,14 +1,23 @@
 'use strict'
 import './Footer.less'
 import './Menu.less'
+import './Home.less'
+import './Sobre.less'
 import $ from 'jquery'
 import htmlMenu from './Menu.html'
 import htmlFooter from './Footer.html'
+import routes from '../routes'
 
 (function(){
 
     $('body').prepend(htmlMenu)
     $('script').before(htmlFooter)
+
+    routes()
+
+    window.addEventListener('hashchange', () =>{
+        routes()
+    })
 
 })()
 

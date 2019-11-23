@@ -15,6 +15,36 @@ footer {
             font-size: 2em;
             padding-bottom: 1.2rem;
         }
+        form { 
+            * {
+                border-radius: 5px;
+                border: none;
+            }
+            input, label {
+                display: grid;
+                text-align: left;
+            }
+            input, textarea, button {
+                margin: 10px;
+                padding: 5px;
+            }
+            .radio {
+                display: grid;
+                grid-template-columns: 20px auto;
+                grid-gap: 10px;
+            }
+            input, textarea {
+                &:invalid {
+                    border-bottom: 3px solid var(--red);
+                }
+                &:valid {
+                    border-bottom: 3px solid #00aa00
+                }
+            }
+            button {
+                width: 50%;
+            }
+        }
     }
     .lower-ft {
         background-color: var(--red);

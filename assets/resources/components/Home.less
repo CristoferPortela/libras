@@ -1,0 +1,66 @@
+header {
+    .header-bg {
+        background-image: url(../../images/sign.jpg);
+        background-size: 100% 90vh;
+        background-repeat: no-repeat;
+        height: 90vh;
+        
+        h1 a {
+            font-family: var(--title);
+            font-size: 3.5em;
+            font-style: italic;
+            color: var(--red);
+            text-shadow: 0 0 5px #121416,
+                         0 0 8px var(--light-yellow);
+            .sign {
+                color: var(--orange);
+                text-shadow: 0 0 5px #121416,
+                             0 0 8px var(--red);
+            }
+        }
+    }
+}
+
+.question {
+    font-size: 20em;
+    text-shadow: 5px 3px 15px #121416;
+    transition: ease-in-out 1s;
+    cursor: default;
+    &:hover {
+        font-size: 22em;
+        text-shadow: -10px -7px 20px #121416;
+    }
+}
+
+.like {
+    width: 50px;
+    height: 50px;
+    background-image: url(../../images/like_PNG49.png);
+    background-size: 30px;
+    background-position: 50%;
+    background-color: var(--red);
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    padding: 5px;
+    border: 3px solid var(--light-yellow);
+    box-shadow: 3px 3px 7px rgba(0,0,0,.7);
+    cursor: pointer;
+    transition: ease .1s;
+
+    &:focus{
+        outline: none;
+    }
+    &:active {
+        width: 45px;
+        height: 45px;
+        box-shadow: 1px 1px 1px rgba(0,0,0,.5);
+        background-size: 27px;
+    }
+}
+
+.liked-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+}

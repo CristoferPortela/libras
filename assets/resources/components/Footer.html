@@ -18,11 +18,35 @@
         </div>
         <div>
             <h3>
-                Heading
+                Quer mais?
             </h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
+            <form class="_center-grid" action="http://localhost:80/form" method="post">
+
+                <label for="email">
+                    Qual seu email?
+                </label>
+                <input id="email" name="email" type="email" required>
+
+                <label for="nome">
+                    Como posso te chamar?
+                </label>
+                <input id="nome" name="nome" type="text"  maxlength="30" minlength="3">
+
+                <label for="textarea">
+                    Mais alguma ideia?
+                </label>
+                <textarea name="Sugestao" id="textarea" cols="30" rows="5s"></textarea>
+
+                <div class="radio">
+                    <input type="radio" name="sexo" value="homem" id="homem"> <label for="homem">Homem</label> 
+                    <input type="radio" name="sexo" value="mulher" id="mulher"> <label for="mulher">Mulher</label> 
+                    <input type="radio" name="sexo" value="irrelevante" id="irrelevante"> <label for="irrelevante">Irrelevante</label>
+                </div>
+
+                <button type="submit">
+                    Enviar
+                </button>
+            </form>
         </div>
     </section>
     <section class="lower-ft _center-flex">
