@@ -8,16 +8,13 @@ import htmlMenu from './Menu.html'
 import htmlFooter from './Footer.html'
 import routes from '../routes'
 
-(function(){
-
+(function() {
     $('body').prepend(htmlMenu)
     $('script').before(htmlFooter)
 
     routes()
 
-    window.addEventListener('hashchange', () =>{
-        routes()
-    })
+    window.addEventListener('hashchange', () => routes())
 
 })()
 

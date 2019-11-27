@@ -35,27 +35,20 @@ function mainPage() {
     })
 
     function like(){
-        const likeP = document.getElementById('likeP')
-        const liked =  document.getElementById('liked')
+        const likeP = $('#likeP')
+        const liked =  $('#liked')
 
         if (localStorage.like === true || localStorage.like === 'true') {
-            likeP.classList.remove('_center-flex', 'show')
-            liked.classList.remove('hide-none')
-
-            likeP.classList.add('hide-none')
-            liked.classList.add('show')
+            likeP.fadeOut('10')
+            liked.fadeIn('100')
         } else {
-            liked.classList.remove('_center-flex', 'show')
-            likeP.classList.remove('hide-none')
-
-            liked.classList.add('hide-none')
-            likeP.classList.add('show')
+            likeP.fadeIn('100')
+            liked.fadeOut('10')
         }
     }
 
     like()
-        
-    document.getElementById('like').addEventListener('click', () =>{
+    $('#like').click(() =>{
         localStorage.like = true
         like()
         alert('Obrigado!')

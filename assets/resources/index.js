@@ -6,14 +6,14 @@ import './components'
 window.onload = () => {
 
     let tooMuchTime = setInterval(() => {
-        alert('Olá? Ainda está ai? Quer continuar na página?')
+        alert('Olá? Ainda está ai?')
     }, 1000*120)
     
     document.addEventListener('scroll', () => {
         clearInterval(tooMuchTime)
     
-        tooMuchTime = setInterval(() => {
-            alert('Olá? Ainda está ai? Quer continuar na página?')
+        tooMuchTime = setTimeout(() => {
+            alert('Olá? Ainda está ai?')
     
         }, 1000*120)
     })
@@ -22,27 +22,28 @@ window.onload = () => {
 
 const validar = e => {
 
-    e.preventDefault()
+    e.preventDefault
     if (e.checkValidity) 
         e.setCustomValidity('Tem alguma coisa errada aqui');
     if (e.validity.valueMissing) 
         e.setCustomValidity('Acho que você me esqueceu');
     if (e.validity.typeMismatch) 
-        e.setCustomValidity('Este não é digitou um email valido');
+        e.setCustomValidity('Tem alguma coisa errada aqui');
     if (e.validity.tooLong || e.validity.rangeOverflow) 
         e.setCustomValidity('Este campo precisa ser um pouco menor');
     if (e.validity.tooShort || e.validity.rangeUnderflow) 
         e.setCustomValidity('Este campo precisa ser um pouco maior');
 }
 
-const email = document.querySelector('#email')
-const nome = document.querySelector('#nome')
+const email = document.getElementById('email')
+const nome = document.getElementById('nome')
 
 email.addEventListener('invalid', () => { validar(email) })
 nome.addEventListener('invalid', () => { validar(nome) })
 
 const radioValidate = () => {
     const radio = Array.from(document.getElementsByName('sexo'))
+    const email = document.querySelector('#email')
 
     let checked = radio.filter(e => {
         if (e.checked === true)
@@ -63,4 +64,7 @@ const radioValidate = () => {
         return false
 }
 
-document.querySelector('form[method=post]').onsubmit = () => { return radioValidate() }
+document.querySelector('form[method=post]')
+    .addEventListener('submit', () => { 
+        return radioValidate() 
+    })
