@@ -7,26 +7,28 @@ import sobreAjax from './sobre'
 import mainPage from './mainPage'
 import mais from './mais'
 
+const route = [
+    {nome: '', tpl: htmlHome, func() {mainPage()}},
+    {nome: '#/sobre', tpl: htmlSobre, func() {sobreAjax()}},
+    {nome: '#libras', tpl: null, func() {return null}},
+    {nome: '#/mais', tpl: htmlMais, func() {mais()}},
+]
 
-function routes() {
-    if (location.pathname === '/' && (location.hash === '#/' || location.hash.search('/') === -1)) {
+async function routes() {
+    route.forEach(e => {
+        if (location.hash === e.nome) {
+            $('#principal').remove()
 
-        $('#principal').remove()
-        $('nav').after(htmlHome)
-        mainPage()
-
-        document.title = 'Home - SignScript'
-    } else if (location.pathname === '/' && location.hash === '#/sobre') {
-        $('#principal').remove()
-        $('nav').after(htmlSobre);
-        sobreAjax()
-        document.title = 'Sobre - SignScript'
-    } else if (location.pathname === '/' && location.hash === '#/mais') {
-        $('#principal').remove()
-        $('nav').after(htmlMais);
-        mais()
-        document.title = 'Mais - SignScript'
-    }
+            $('nav').after(e.tpl)
+    
+            e.func()
+    
+            let name = e.nome.slice(2)
+            name = e.nome === '' ? 'Home' : name.charAt(0).toUpperCase() + name.slice(1)
+            document.title = `${name} - SignScript`
+        }
+    })
 }
 
-export default routes
+export const routing = routes
+export const hashing = route
