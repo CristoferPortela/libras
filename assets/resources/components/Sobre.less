@@ -1,8 +1,15 @@
 header {
     .sobre-bg {
         background-image: url(../../images/about.jpg);
-        background-size: 100% 90vh;
+        background-size: cover;
+        background-position: 20%;
         background-repeat: no-repeat;
         height: 90vh;
+    }
+    @media screen and (min-width: 772px) {
+        .sobre-bg {
+            background-size: 100% 90vh;
+            height: 90vh;
+        }
     }
 }
