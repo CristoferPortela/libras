@@ -13,7 +13,7 @@
     <section id="main-menu" class="toggled">
         <ul class="menu-list">
             <li>
-                <a href="#" class="pad-bottom-10 underline-left l-teri-gaki-persimmon">Home</a>
+                <a href="" class="pad-bottom-10 underline-left l-teri-gaki-persimmon">Home</a>
             </li>
             <li>
                 <a href="#/sobre" class="pad-bottom-10 underline-left l-teri-gaki-persimmon">Sobre o projeto</a>
@@ -26,7 +26,7 @@
             </li>
             <li>
                 <form action="/search" method="GET" class="nav-form">
-                    <input id="search" type="text" placeholder="Pesquise...">
+                    <input id="search" type="text" placeholder="Pesquise..." onfocus="searchFocus(this)" onblur="unsearch(this)">
                     <span class="lupa">
                         <label for="search">
                             <img src="../../images/search.png" alt="search icon">
