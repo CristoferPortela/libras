@@ -18,7 +18,7 @@ function mainPage() {
         e.addClass('delay')
     })
 
-    $(window).scroll(function(){
+    $(window).scroll( async function(){
         let windowPos = $(window).scrollTop()
 
         for (let i in indexArticles) {
