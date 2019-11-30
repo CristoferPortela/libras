@@ -8,7 +8,7 @@ const port = 80
 app.use(cors())
 
 app.get('/sobre', (req, res, next) => {
-    res.json(sobre)
+    res.json(JSON.stringify(sobre))
 })
 
 app.listen(port)
