@@ -3,7 +3,7 @@ import '../libraries/lizFramework/css/generals/liz.css'
 import './app.less'
 import './components'
 
-window.onload = () => {
+window.onload = async () => {
 
     let tooMuchTime = setInterval(() => {
         alert('Olá? Ainda está ai?')
@@ -17,14 +17,16 @@ window.onload = () => {
     
         }, 1000*120)
     })
-    
 }
+
+document.forms[1][0].addEventListener('blur', () => {
+    document.forms[1][0].pattern = /^[\W\w]+@{1}\w+(\.[\w]+((\.[\w+]+)+)?)$/
+    if (document.forms[1][0].validity.patternMismatch)
+        document.forms[1][0].setCustomValidity('Por favor, me revise')
+})
 
 const validar = e => {
 
-    e.preventDefault
-    if (e.checkValidity) 
-        e.setCustomValidity('Tem alguma coisa errada aqui');
     if (e.validity.valueMissing) 
         e.setCustomValidity('Acho que você me esqueceu');
     if (e.validity.typeMismatch) 
@@ -64,7 +66,5 @@ const radioValidate = () => {
         return false
 }
 
-document.querySelector('form[method=post]')
-    .addEventListener('submit', () => { 
-        return radioValidate() 
-    })
+document.querySelector('form[method=post]').onsubmit = () => { return radioValidate() }
+    
