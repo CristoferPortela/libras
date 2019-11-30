@@ -10,5 +10,14 @@
     <body>
 
         <script src="/bundle.js"></script>
+        <script>
+            const searchFocus = (e) => {
+                e.style.transition = '.5s'
+                e.style.width = '250px'
+            }
+            const unsearch = (e) => {
+                e.style.width = 'auto'
+            }
+        </script>
     </body>
 </html> 
