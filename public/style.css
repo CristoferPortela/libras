@@ -3573,23 +3573,6 @@ a {
   font-family: 'Times New Roman', Times, serif;
   text-decoration: none;
 }
-header .header-bg {
-  background-image: url(acb069cbfd3536daffa6ed97d36aaa68.jpg);
-  background-size: 100% 90vh;
-  background-repeat: no-repeat;
-  height: 90vh;
-}
-header .header-bg h1 a {
-  font-family: var(--title);
-  font-size: 3.5em;
-  font-style: italic;
-  color: var(--red);
-  text-shadow: 0 0 5px #121416, 0 0 8px var(--light-yellow);
-}
-header .header-bg h1 a .sign {
-  color: var(--orange);
-  text-shadow: 0 0 5px #121416, 0 0 8px var(--red);
-}
 h2 {
   color: #121416;
   font-size: 2em;
@@ -3617,15 +3600,44 @@ h2 {
     margin-right: 8%;
   }
 }
-.question {
-  font-size: 20em;
-  text-shadow: 5px 3px 15px #121416;
-  transition: ease-in-out 1s;
-  cursor: default;
+.delay {
+  transition: ease-in-out 0.8s !important;
 }
-.question:hover {
-  font-size: 22em;
-  text-shadow: -10px -7px 20px #121416;
+.bg {
+  background-color: #f0f8ff;
+}
+.imagem {
+  max-width: 100%;
+}
+main p {
+  display: block;
+  margin: 10px 5px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: justify;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+@media screen and (min-width: 552px) {
+  main p {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+}
+@media screen and (min-width: 720px) {
+  main p {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+@media screen and (min-width: 992px) {
+  main p {
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+}
+.liked-circle {
+  background-image: url(d6000c1cd5cda3c5b1e4eb780317ba5a.png);
+  background-size: 100%;
 }
 
 footer .upper-ft {
@@ -3643,6 +3655,37 @@ footer .upper-ft h3 {
   text-align: center;
   font-size: 2em;
   padding-bottom: 1.2rem;
+}
+footer .upper-ft form * {
+  border-radius: 5px;
+  border: none;
+}
+footer .upper-ft form input,
+footer .upper-ft form label {
+  display: grid;
+  text-align: left;
+}
+footer .upper-ft form input,
+footer .upper-ft form textarea,
+footer .upper-ft form button {
+  margin: 10px;
+  padding: 5px;
+}
+footer .upper-ft form .radio {
+  display: grid;
+  grid-template-columns: 20px auto;
+  grid-gap: 10px;
+}
+footer .upper-ft form input:invalid,
+footer .upper-ft form textarea:invalid {
+  border-bottom: 3px solid var(--red);
+}
+footer .upper-ft form input:valid,
+footer .upper-ft form textarea:valid {
+  border-bottom: 3px solid #00aa00;
+}
+footer .upper-ft form button {
+  padding: 5px 20px;
 }
 footer .lower-ft {
   background-color: var(--red);
@@ -3778,6 +3821,80 @@ footer .lower-ft li {
   .main-nav #main-menu .nav-form {
     padding-top: 0;
     margin-top: -14px;
+  }
+}
+
+header .header-bg {
+  background-image: url(acb069cbfd3536daffa6ed97d36aaa68.jpg);
+  background-size: 100% 90vh;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+header .header-bg h1 a,
+header .header-bg h1.mais-title {
+  font-family: var(--title);
+  font-size: 3.5em;
+  font-style: italic;
+  color: var(--red);
+  text-shadow: 0 0 5px #121416, 0 0 8px var(--light-yellow);
+}
+header .header-bg h1 a .sign,
+header .header-bg h1.mais-title .sign {
+  color: var(--orange);
+  text-shadow: 0 0 5px #121416, 0 0 8px var(--red);
+}
+.question {
+  font-size: 20em;
+  text-shadow: 5px 3px 15px #121416;
+  transition: ease-in-out 1s;
+  cursor: default;
+}
+.question:hover {
+  font-size: 22em;
+  text-shadow: -10px -7px 20px #121416;
+}
+.like {
+  width: 50px;
+  height: 50px;
+  background-image: url(49e1d6b5f053580e1eba614c97bf3faa.png);
+  background-size: 30px;
+  background-position: 50%;
+  background-color: var(--red);
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  padding: 5px;
+  border: 3px solid var(--light-yellow);
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+  transition: ease 0.1s;
+}
+.like:focus {
+  outline: none;
+}
+.like:active {
+  width: 45px;
+  height: 45px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  background-size: 27px;
+}
+.liked-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+header .sobre-bg {
+  background-image: url(20478ffd907af863e5f8ff7553f97b96.jpg);
+  background-size: cover;
+  background-position: 20%;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+@media screen and (min-width: 772px) {
+  header .sobre-bg {
+    background-size: 100% 90vh;
+    height: 90vh;
   }
 }
 
