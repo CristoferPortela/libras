@@ -10,7 +10,6 @@ import mais from './mais'
 const route = [
     {nome: '', tpl: htmlHome, func() {mainPage()}},
     {nome: '#/sobre', tpl: htmlSobre, func() {sobreAjax()}},
-    {nome: '#libras', tpl: null, func() {return null}},
     {nome: '#/mais', tpl: htmlMais, func() {mais()}},
 ]
 
