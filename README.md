@@ -2,7 +2,6 @@ L I | B  R  A | S
 -----|--------|--
 lingua |brasileira |de sinais
 
-
 ### About the project
 
 
@@ -24,6 +23,10 @@ except if you are deaf and want to come to brazil, otherwise, if you are
 brazilian, I can't see no reason to not learn libras!
 
 Exigencias do projeto
+
+
+Há uma parte backend que precisa ser rodada no notebook
+
 
 ### Qualidade do código
 
